@@ -11,7 +11,7 @@ function App() {
 
   const handleSubmit = async () => {
     try {
-      const response = await fetch("https://decision-helper.onrender.com/api/decision", 
+      const response = await fetch("https://decision-helper.onrender.com/api/decision"), 
         method: "POST",
         headers: {
           "Content-Type": "application/json",
